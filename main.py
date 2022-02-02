@@ -5,5 +5,7 @@ def main():
     half_age = user_response/2
     print(f"{half_age} is your half age")
 
+    # maybe im doing this right
+
 main()
 
