@@ -1,0 +1,17 @@
+import arcade
+def main():
+    arcade.open_window(1000,600, "first window ever")
+    house = arcade.create_rectangle(500,100,300,300,arcade.color.IMPERIAL_BLUE)
+    roof =  arcade.create_polygon([(350,250),(650,250),(500,400)],arcade.color.DARK_TURQUOISE)
+    door = arcade.create_rectangle(500,50,50,100, arcade.color.CEIL)
+    window = arcade.create_ellipse_filled(400,175,50,50,arcade.color.APRICOT)
+    window2 = arcade.create_ellipse_filled(600,175,50,50,arcade.color.APRICOT)
+    arcade.start_render()
+    house.draw()
+    window2.draw()
+    door.draw()
+    roof.draw()
+    window.draw()
+    arcade.finish_render()
+    arcade.run()
+main()
