@@ -6,4 +6,12 @@ def main():
     print(f"your area would be {area}")
     primeter = (user_imput1*2)+(user_imput2*2)
     print(f"your perimeter would be {primeter}")
+
+
+
+
 main()
+
+
+
+
